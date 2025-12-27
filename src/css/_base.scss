@@ -1,0 +1,73 @@
+@mixin flexbox {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 10px;
+}
+
+@mixin circunferencia {
+    background: #222222;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin banner {
+    padding: 100px 20px;
+    text-align: center;
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 34%;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+@mixin marcos {
+    background: #222222;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@mixin banner-d-portada {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    background-image: url(../img/portada_footer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px auto;
+    height: 200px;
+}
+
+@mixin principal-acciones {
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+%jc-between {
+    justify-content: space-between;
+}
+
+%ai-center {
+    align-items: center;
+}
+
+%p-10 {
+    padding: 10px;
+}
+
+%mt-10 {
+    margin-top: 10px;
+}
+
+%mb-10 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,148 @@
+body {
+    background: #000000;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header-nav {
+    @include flexbox;
+    @extend %jc-between;
+    margin-bottom: 10px;
+
+    .header-nav-c,
+    .header-nav-c-acciones-buscar {
+        @include flexbox;
+        @extend %ai-center;
+    }
+
+    .header-nav-c-acciones-buscar input {
+        border: none;
+        background: transparent;
+        color: #ffffff;
+        width: 171px;
+    }
+
+    .header-nav-c-acciones-inicio,
+    .header-nav-c-acciones-buscar {
+        @include circunferencia;
+        @extend %p-10;
+    }
+
+    .header-nav-d {
+        @include flexbox;
+    }
+}
+
+.footer {
+    @include flexbox;
+    @extend %jc-between;
+
+    .footer-nav-i-info,
+    .footer-nav-c-acciones,
+    .footer-nav-d-acciones {
+        @include flexbox;
+    }
+
+    .footer-nav-i-info-portada img {
+        width: 60px;
+    }
+}
+
+.principal {
+    display: grid;
+    //grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: 25% 60% 15%;
+    margin-bottom: 14px;
+
+    .principal-i {
+        @include marcos;
+    }
+
+    .principal-i-tu-biblioteca,
+    .principal-i-tu-biblioteca-acciones,
+    .principal-i-tu-biblioteca-acciones-maximizar {
+        @include flexbox;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .principal-i-tu-biblioteca-acciones-crear {
+        @include flexbox;
+        @include circunferencia;
+        padding: 0 10px;
+    }
+
+    .principal-i-tu-biblioteca-titulo span {
+        font-weight: bold;
+    }
+
+    .principal-i-tu-biblioteca-acciones-maximizar img {
+        display: flex;
+    }
+
+    .principal-i-botones {
+        @include flexbox;
+        @extend %jc-between;
+        @extend %mt-10;
+        @extend %mb-10;
+    }
+
+    .principal-i-botones-playlist, .principal-i-botones-podcast, .principal-i-botones-albunes, .principal-i-botones-artistas {
+        background: #434242;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 2px 10px;
+
+    }
+
+    .pricipal-i-buscar {
+        @include flexbox;
+        @extend %jc-between;
+        margin-bottom: 4px;
+
+        .principal-i-buscar-reciente {
+            @include flexbox;
+        }
+    }
+
+    .principal-c {
+        @include marcos;
+        margin: 0px 8px;
+
+        .principal-c-banner {
+            @include banner;
+        }
+
+        .principal-c-portada {
+            img {
+                width: 100%;
+            }
+        }
+
+        .principal-c-acciones {
+            @include principal-acciones;
+        }
+    }
+
+    .principal-d {
+        @include marcos;
+
+        .principal-d-portada {
+            @include banner-d-portada;
+        }
+
+        .principal-d-portada-titulo {
+            padding-bottom: 180px;
+        }
+
+        .principal-d-portada-subtitulo span {
+            font-size: 20px;
+        }
+
+        .principal-d-portada-subtitulo {
+            margin-top: 6px;
+        }
+    }
+}
