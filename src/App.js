@@ -1,4 +1,4 @@
-import Header from './Components/Header/index.tsx';
+import Header from './Components/Header/index.js';
 import Footer from './Components/Footer/index.js';
 import Main from './Components/Main/index.js';
 import { Routes, Route } from 'react-router-dom';
