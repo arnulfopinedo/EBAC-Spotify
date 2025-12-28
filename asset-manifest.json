@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/EBAC-Spotify/static/css/main.044cd0f9.css",
+    "main.js": "/EBAC-Spotify/static/js/main.9d9f0a0d.js",
+    "static/media/portada.jpg": "/EBAC-Spotify/static/media/portada.d574b71580ed6d330082.jpg",
+    "static/media/portada_footer.webp": "/EBAC-Spotify/static/media/portada_footer.d117293998077d229d2f.webp",
+    "index.html": "/EBAC-Spotify/index.html",
+    "static/media/list.svg": "/EBAC-Spotify/static/media/list.0574ec242d961fd542b7d5bcec2e9f57.svg",
+    "static/media/shuffle.svg": "/EBAC-Spotify/static/media/shuffle.e6cfeb8f9e740183adadadb3a2fb7963.svg",
+    "static/media/mic.svg": "/EBAC-Spotify/static/media/mic.f9e74f5c5181d9a42f93a3b1db03955d.svg",
+    "static/media/minimize-2.svg": "/EBAC-Spotify/static/media/minimize-2.94ae45bff1a3d4c20538985005f792bd.svg",
+    "static/media/maximize-2.svg": "/EBAC-Spotify/static/media/maximize-2.1ab58d6827ae66e9fd35a16913d56c2e.svg",
+    "static/media/users.svg": "/EBAC-Spotify/static/media/users.c5ff2ed80304dd5fcafd16f82947a6f3.svg",
+    "static/media/repeat.svg": "/EBAC-Spotify/static/media/repeat.23c54cd0df33809dd8bdcd1e6e2d2d69.svg",
+    "static/media/cast.svg": "/EBAC-Spotify/static/media/cast.44d8353d5a6307c073306059f7feb8dd.svg",
+    "static/media/arrow-down-circle.svg": "/EBAC-Spotify/static/media/arrow-down-circle.7384cbf4244b9b6421cf9e5cc5cf7ddd.svg",
+    "static/media/pause-circle.svg": "/EBAC-Spotify/static/media/pause-circle.2a7faf6a95b5770daccad25090aa0f84.svg",
+    "static/media/plus-circle.svg": "/EBAC-Spotify/static/media/plus-circle.5d57861932230371671e4937c3d1e82b.svg",
+    "static/media/more-horizontal.svg": "/EBAC-Spotify/static/media/more-horizontal.1f3bcb1b70b3759df314bc767e1b6fcb.svg",
+    "static/media/home.svg": "/EBAC-Spotify/static/media/home.abf235a848ffc66d081558438fccec1e.svg",
+    "static/media/smartphone.svg": "/EBAC-Spotify/static/media/smartphone.ef8666b0094ec48a731bb785c7344690.svg",
+    "static/media/bell.svg": "/EBAC-Spotify/static/media/bell.543b9a7f3071138e5af6ae08fb59bc99.svg",
+    "static/media/play-circle.svg": "/EBAC-Spotify/static/media/play-circle.9b719e479bfa8c6f2b466563b8f1c3c3.svg",
+    "static/media/folder.svg": "/EBAC-Spotify/static/media/folder.341e964fc44dca1049b44ffac7149b7f.svg",
+    "static/media/search.svg": "/EBAC-Spotify/static/media/search.7323df73bb46abf08c4d7bc83ba346f5.svg",
+    "static/media/plus.svg": "/EBAC-Spotify/static/media/plus.963d62960c908f2e36a57e1a92fa7556.svg",
+    "static/media/x.svg": "/EBAC-Spotify/static/media/x.4f1395563628889f661130bdc24ed4e1.svg",
+    "static/media/chevron-left.svg": "/EBAC-Spotify/static/media/chevron-left.3cc88230eb80003888f3d01477975099.svg",
+    "static/media/chevron-right.svg": "/EBAC-Spotify/static/media/chevron-right.7b4528b09378cb8ed798614dd41779db.svg",
+    "main.044cd0f9.css.map": "/EBAC-Spotify/static/css/main.044cd0f9.css.map",
+    "main.9d9f0a0d.js.map": "/EBAC-Spotify/static/js/main.9d9f0a0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.044cd0f9.css",
+    "static/js/main.9d9f0a0d.js"
+  ]
+}
